@@ -1,6 +1,7 @@
 from django.urls import path
-from .views import MainPageView
+from .views import MainPageView, FomoView
 
 urlpatterns = [
-    path('', MainPageView.as_view())
+    path('main', MainPageView.as_view()),
+    path('fomo-view', FomoView.as_view())
 ]

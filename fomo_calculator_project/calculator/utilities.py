@@ -1,5 +1,6 @@
 from pycoingecko import CoinGeckoAPI
 from datetime import datetime
+import json
 cg = CoinGeckoAPI()
 
 def getPrice(coin):
