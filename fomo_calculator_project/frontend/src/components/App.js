@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
+import HomePage from "./HomePage";
+import AboutPage from "./AboutPage";
 
 export default class App extends Component {
     constructor(props){
@@ -7,7 +9,11 @@ export default class App extends Component {
     }
 
     render() {
-        return <h1>Home Page</h1>;
+        return (
+        <div>
+            <HomePage />
+        </div>
+        );
     }
 }
 
